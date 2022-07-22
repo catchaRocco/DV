@@ -650,15 +650,15 @@ ui <- dashboardPage(
                       column(
                         4,
                         h6(
-                          strong("1. Autodromo Nazionale di Monza"),
+                          strong("1. Circuit de Spa-Francorchamps"),
                           br(),
-                          em("Hosted 71 World Championship races"),
+                          em("Hosted 54 World Championship races"),
                           br(),
                           strong("Why go?"),
-                          "Electric atmosphere; stunning location in the heart of a large city park with easy access to the food, culture and history of Milan.",
+                          "Formula 1's longest circuit offers exceptional trackside views and exciting racing in a beautiful corner of Western Europe.",
                           a(
-                            "Celebrate Monza's centenary at the 2022 Italian Grand Prix on 8-11 September.",
-                            href = "https://f1experiences.com/2022-italian-grand-prix"
+                            "Join us at Circuit de Spa-Francorchamps for the 2022 Belgian Grand Prix on 25-28 August.",
+                            href = "https://f1experiences.com/2022-belgian-grand-prix"
                           )
                         )
                       ),
@@ -666,15 +666,15 @@ ui <- dashboardPage(
                       column(
                         4,
                         h6(
-                          strong("2. Circuit de Monaco"),
+                          strong("2. Interlagos"),
                           br(),
-                          em("Hosted 67 World Championship races"),
+                          em("Hosted 38 World Championship races"),
                           br(),
                           strong("Why go?"),
-                          "Glamour, super yachts, people-watching and the chance to see modern F1 cars on the ragged edge at very close quarters."
+                          "Great trackside views, exciting racing and the chance to explore S??o Paulo, Latin America's largest city"
                           ,
                           a(
-                            "Secure an Official Ticket Package for the 2022 Monaco Grand Prix at Circuit de Monaco on 26-29 May.",
+                            "Secure your access now for the 2022 S??o Paulo Grand Prix (10-13 November) at Interlagos.",
                             href = "https://f1experiences.com/2023-monaco-grand-prix"
                           )
                         )
@@ -683,43 +683,47 @@ ui <- dashboardPage(
                       column(
                         4,
                         h6(
-                          strong("3. Silverstone"),
+                          strong("3. Hungaroring"),
                           br(),
-                          em("Hosted 56 World Championship races"),
+                          em("Hosted 36 World Championship races"),
                           br(),
                           strong("Why go?"),
-                          "Passionate and knowledgeable local fans, friendly atmosphere and an action-packed event schedule, on and off the track."
+                          "Warm weather, excellent spectator views and close proximity to the affordable and vibrant city of Budapest. "
                           ,
                           a(
-                            "Official Ticket Packages are selling fast for the 2022 British Grand Prix at Silverstone on 30 June-3 July.",
-                            href = "https://f1experiences.com/2022-british-grand-prix"
+                            "Attend the 2022 Hungarian Grand Prix in Budapest (28-31 July) with F1 Experiences.",
+                            href = "https://f1experiences.com/2022-hungarian-grand-prix"
                           )
                         )
                       ),
                       
                       br(),
                       
+                      column(
+                        4,
+                        img(
+                          src = "1Canadian_Grand_Prix_.jpg",
+                          length = 250,
+                          width = 180
+                        )
+                      ),
+                      
                       column(4,
                              img(
-                               src = "Italian_GP.jpg",
+                               src = "2Hungary_F1.jpg",
                                length = 250,
                                width = 180
                              )),
                       
-                      column(4,
-                             img(
-                               src = "Monaco_F1.jpg",
-                               length = 250,
-                               width = 180
-                             )),
                       
-                      
-                      column(4,
-                             img(
-                               src = "Brazil-2019.jpg",
-                               length = 250,
-                               width = 180
-                             ))
+                      column(
+                        4,
+                        img(
+                          src = "3Austria-2021-Circuit.jpg",
+                          length = 250,
+                          width = 180
+                        )
+                      )
                       
                     )
                   )
