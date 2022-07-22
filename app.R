@@ -119,9 +119,10 @@ ui <- dashboardPage(
                    tags$div(fluidRow(
                      column(
                        8,
-                       "Formula 1 racing began in 1950 and is the world’s most prestigious motor racing competition, as well as the world’s most popular annual sporting series: The 2019 FIA Formula One World Championship runs from March to December and spans 21 races in 21 countries across four continents. Formula One World Championship Limited is part of Formula 1 and holds the exclusive commercial rights to the FIA Formula One World Championship.",
+                       "Formula 1 racing began in 1950 and is
+                       the world’s most prestigious motor racing competition, as well as the world’s most popular annual sporting series: The 2019 FIA Formula One World Championship runs from March to December and spans 21 races in 21 countries across four continents. Formula One World Championship Limited is part of Formula 1 and holds the exclusive commercial rights to the FIA Formula One World Championship.",
                        br(),
-                       a(h5("Source", href = 'https://corp.formula1.com/about-f1'))
+                       h5(a("Source", href = "https://corp.formula1.com/about-f1/."))
                      ),
                      
                      column(
